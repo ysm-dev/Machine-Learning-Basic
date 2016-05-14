@@ -1,0 +1,52 @@
+<html>
+<head><!-- css 버튼 크기, 정렬 정의 -->
+    <style>
+        .num{
+        width:32.4%;
+        height:35pt;
+        margin-top:5pt;
+        }
+        .mobile{
+        text-align:right;
+        }
+        .message{
+        width:100%;
+        height:60pt;
+    </style>
+</head>
+<body>
+<!-- 버튼 삽입 -->
+<input type="button" value="1" class="num" onClick="sendValue('1')">
+<input type="button" value="2" class="num" onClick="sendValue('2')">
+<input type="button" value="3" class="num" onClick="sendValue('3')">
+<br>
+<input type="button" value="4" class="num" onClick="sendValue('4')">
+<input type="button" value="5" class="num" onClick="sendValue('5')">
+<input type="button" value="6" class="num" onClick="sendValue('6')">
+<br>
+<input type="button" value="7" class="num" onClick="sendValue('7')">
+<input type="button" value="8" class="num" onClick="sendValue('8')">
+<input type="button" value="9" class="num" onClick="sendValue('9')">
+<br>
+<input type="button" value="*" class="num" onClick="sendValue('*')">
+<input type="button" value="0" class="num" onClick="sendValue('0')">
+<input type="button" value="<" class="num" onClick="sendValue('<')">
+<br>
+<p align="center">Mobile Number
+    <input type="text" width="100" class="mobile" id="numb"><br><br>
+    <input type="text" width="100" class="message" id="message" value="Message"><br><br>
+    <input type="button" value="Submit" class="sm" id="submit" onClick="submit()">
+</p>
+</body><!-- 자바스크립트 function -->
+<script type="text/javascript">
+function sendValue(val) {               // 버튼 클릭 function
+    Android.receiveValue(val);          // 안드로이드로 누른 번호 전송
+    document.getElementById("numb").value =Android.getNum();  // 안드로이드에서 현재까지 누른 번호 받아오기
+}
+function submit() {                     // submit 버튼 클릭
+    Android.submit(document.getElementById("message").value); // 안드로이드로 메세지 전송
+}
+
+
+</script>
+</html>
