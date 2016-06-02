@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ysm0622.hw4_2.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/ic_arrow_downward_black_24dp" />
+
+            <EditText
+                android:id="@+id/EditText0"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:hint="Row"
+                android:inputType="numberDecimal"
+                android:singleLine="true" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/ic_arrow_forward_black_24dp" />
+
+            <EditText
+                android:id="@+id/EditText1"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:hint="Col"
+                android:inputType="numberDecimal"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/Button0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Generate" />
+
+    </LinearLayout>
+
+    <com.example.ysm0622.hw4_2.MazeSurfaceView
+        android:id="@+id/MazeSurfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Made by Sungmin"
+        android:layout_margin="16dp"
+        android:textStyle="italic"/>
+</LinearLayout>
