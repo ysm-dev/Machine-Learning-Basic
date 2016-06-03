@@ -1,0 +1,25 @@
+﻿빌드 시작: 2016-04-24 오전 12:46:06
+     1>2 노드의 "C:\Users\ysm0622\Desktop\가천대(3-1)\AI공부\Classification\Classification\Classification.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "소스.cpp"
+         소스.cpp
+     1>c:\users\ysm0622\desktop\가천대(3-1)\ai공부\classification\classification\소스.cpp(13): warning C4005: 'IN': 매크로 재정의
+         c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(79): note: 'IN'의 이전 정의를 참조하십시오.
+     1>c:\users\ysm0622\desktop\가천대(3-1)\ai공부\classification\classification\소스.cpp(14): warning C4005: 'OUT': 매크로 재정의
+         c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(83): note: 'OUT'의 이전 정의를 참조하십시오.
+     1>c:\users\ysm0622\desktop\가천대(3-1)\ai공부\classification\classification\소스.cpp(125): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(240): note: 'freopen' 선언을 참조하십시오.
+     1>c:\users\ysm0622\desktop\가천대(3-1)\ai공부\classification\classification\소스.cpp(127): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+     1>c:\users\ysm0622\desktop\가천대(3-1)\ai공부\classification\classification\소스.cpp(131): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+     1>c:\users\ysm0622\desktop\가천대(3-1)\ai공부\classification\classification\소스.cpp(133): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ysm0622\Desktop\가천대(3-1)\AI공부\Classification\Debug\Classification.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\ysm0622\Desktop\가천대(3-1)\AI공부\Classification\Debug\Classification.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ysm0622\Desktop\가천대(3-1)\AI공부\Classification\Debug\Classification.lib" /MACHINE:X86 "Debug\소스.obj"
+         Classification.vcxproj -> C:\Users\ysm0622\Desktop\가천대(3-1)\AI공부\Classification\Debug\Classification.exe
+     1>"C:\Users\ysm0622\Desktop\가천대(3-1)\AI공부\Classification\Classification\Classification.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.71
